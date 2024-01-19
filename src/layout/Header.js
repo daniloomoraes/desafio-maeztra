@@ -1,5 +1,5 @@
 import TipBar from "../components/Header/TipBar";
-import ModalNewslleter from "../components/Header/ModalNewslleter";
+import ModalNewsletter from "../components/Header/ModalNewsletter";
 import Menu from "../components/Header/Menu";
 
 import icoMenuMobile from "../assets/img/header/ico-menu.svg";
@@ -13,7 +13,7 @@ import icoCarrinho from "../assets/img/header/ico-carrinho.svg";
 function Header() {
   return (
     <>
-      <ModalNewslleter />
+      <ModalNewsletter />
       <TipBar />
       <header className="headerContainer">
         <div className="headerRow">
@@ -21,7 +21,11 @@ function Header() {
             <div className="headerMenuMobile">
               <img src={icoMenuMobile} alt="Ícone menu Mobile" />
             </div>
-            <img src={logoMaeztra} alt="Logo Maeztra" className="headerMenuLogo"/>
+            <img
+              src={logoMaeztra}
+              alt="Logo Maeztra"
+              className="headerMenuLogo"
+            />
           </div>
           <div className="headerBuscaDesktop">
             <input placeholder="O Que Você Busca?" />
