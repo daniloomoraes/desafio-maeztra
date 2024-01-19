@@ -6,6 +6,8 @@ import Footer from './layout/Footer';
 
 import './assets/css/Default.css';
 import './assets/css/Header.css';
+import './assets/css/Home.css';
+import './assets/css/Footer.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

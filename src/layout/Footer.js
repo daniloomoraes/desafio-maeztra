@@ -1,8 +1,13 @@
+import Newsletter from "../components/Footer/Newsletter";
+
 function Footer() {
   return (
-    <div>
-      Footer
-    </div>
+    <>
+      <Newsletter />
+      <div>
+        Footer
+      </div>
+    </>
   );
 }
 
