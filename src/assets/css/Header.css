@@ -1,0 +1,169 @@
+/* TIPBAR */
+
+.headerTibBar {
+  align-items: center;
+  background: #353535;
+  color: #fff;
+  display: flex;
+  font-size: 10px;
+  font-weight: 400;
+  height: 24px;
+  justify-content: center;
+  line-height: 18px;
+}
+
+@media (min-width: 768px) {
+  .headerTibBar {
+    font-size: 12px;
+  }
+}
+
+/* HEADER */
+
+.headerContainer {
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+}
+
+.headerRow {
+  align-items: center;
+  display: flex;
+  height: 88px;
+  justify-content: space-between;
+  margin: 0 16px;
+  max-width: 1598px;
+  width: 100%;
+}
+
+.headerLogoArea {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.headerMenuMobile {
+  align-items: center;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .headerMenuMobile {
+    display: none;
+  }
+}
+
+.headerMenuLogo {
+  height: max-content;
+  max-width: 110px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .headerMenuLogo {
+    max-width: unset;
+  }
+}
+
+.headerBuscaDesktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .headerBuscaDesktop {
+    display: flex;
+    flex-direction: row;
+    max-width: 391px;
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1450px) {
+  .headerBuscaDesktop {
+    max-width: 791px;
+  }
+}
+
+.headerBuscaDesktop input {
+  background-color: #efefef;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  max-width: 391px;
+  padding: 0 24px;
+  width: 100%;
+}
+
+@media (min-width: 1450px) {
+  .headerBuscaDesktop input {
+    max-width: 791px;
+  }
+}
+
+.headerBuscaDesktop button {
+  background-color: #faa500;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 21px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 119px;
+}
+
+.headerBuscaDesktop input:focus,
+.headerBuscaDesktop button:focus {
+  outline: none;
+}
+
+.headerLinksMobile {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .headerLinksMobile {
+    display: none;
+  }
+}
+
+.headerLinksDesktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .headerLinksDesktop {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+    justify-content: center;
+  }
+}
+
+.headerLinksDesktop a {
+  color: #353535;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.headerLinksDesktop a:last-child {
+  border: 1px solid #faa500;
+  border-radius: 8px;
+  padding: 12px 14px 13px 17px;
+}
