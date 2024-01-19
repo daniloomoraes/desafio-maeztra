@@ -76,7 +76,7 @@
 }
 
 .bannerSliderDots li a {
-  border: solid 1px #FAA500;
+  border: solid 1px #faa500;
   border-radius: 50%;
   display: block;
   font-size: 0;
@@ -88,8 +88,137 @@
   .bannerSliderDots li a {
     height: 16px;
     width: 16px;
-  }  
+  }
 }
 .bannerSliderDotsActive {
-  background-color: #FAA500;
+  background-color: #faa500;
+}
+
+/* TIPBAR */
+
+.bannerTipBar {
+  margin: 24px auto 40px;
+  max-width: 1598px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bannerTipBar {
+    margin: 24px auto 74px;
+  }
+}
+
+.bannerTipBar h2 {
+  color: #353535;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto 21px;
+  text-align: center;
+  width: 100%;
+}
+
+.bannerTipBarList ul {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bannerTipBarList li {
+  width: calc(20% - 15px);
+}
+
+.bannerTipBarList img {
+  width: -webkit-fill-available;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .bannerTipBarList {
+    overflow: auto;
+  }
+
+  .bannerTipBarList ul {
+    width: 1598px;
+  }
+
+  .bannerTipBarList li:first-child img {
+    margin-left: 75px;
+  }
+
+  .bannerTipBarList li:last-child img {
+    margin-right: 25px;
+  }
+}
+
+/* MARCAS */
+
+.bannerMarcas {
+  margin: 0 auto 40px;
+  max-width: 1598px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bannerMarcas {
+    margin: 0 auto 74px;
+  }
+}
+
+.bannerMarcas h2 {
+  color: #353535;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto 25px;
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bannerMarcas h2 {
+    font-size: 32px;
+    margin: 0 auto 17px;
+  }
+}
+
+.bannerMarcasList ul {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bannerMarcasList li {
+  width: calc(20% - 15px);
+}
+
+.bannerMarcasList img {
+  width: -webkit-fill-available;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .bannerMarcasList {
+    overflow: auto;
+  }
+
+  .bannerMarcasList ul {
+    width: 1598px;
+  }
+
+  .bannerMarcasList li:first-child img {
+    margin-left: 75px;
+  }
+
+  .bannerMarcasList li:last-child img {
+    margin-right: 25px;
+  }
 }

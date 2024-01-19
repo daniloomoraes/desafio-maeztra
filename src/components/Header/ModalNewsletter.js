@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import bannerNewsletter from "../../assets/img/newsletter/banner-news.png";
 import icoNewsletter from "../../assets/img/newsletter/ico-newsletter.png";
@@ -10,6 +10,13 @@ function ModalNewsletter() {
   const handleCloseModal = () => {
     setModalVisible(false);
   };
+
+  useEffect(() => {
+    document.body.style.overflow = modalVisible ? "hidden" : "auto";
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [modalVisible]);
 
   return (
     <div style={{ display: modalVisible ? "block" : "none" }}>
