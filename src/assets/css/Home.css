@@ -133,8 +133,8 @@
 }
 
 .bannerTipBarList img {
-  width: -webkit-fill-available;
   height: auto;
+  width: -webkit-fill-available;
 }
 
 @media (max-width: 768px) {
@@ -144,14 +144,6 @@
 
   .bannerTipBarList ul {
     width: 1598px;
-  }
-
-  .bannerTipBarList li:first-child img {
-    margin-left: 75px;
-  }
-
-  .bannerTipBarList li:last-child img {
-    margin-right: 25px;
   }
 }
 
@@ -201,8 +193,8 @@
 }
 
 .bannerMarcasList img {
-  width: -webkit-fill-available;
   height: auto;
+  width: -webkit-fill-available;
 }
 
 @media (max-width: 768px) {
@@ -213,12 +205,98 @@
   .bannerMarcasList ul {
     width: 1598px;
   }
+}
 
-  .bannerMarcasList li:first-child img {
-    margin-left: 75px;
+/* VITRINES */
+
+/* SOBRE */
+
+.bannerSobreContainer {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 40px;
+}
+
+@media (min-width: 768px) {
+  .bannerSobreContainer {
+    margin: 80px 0;
   }
+}
 
-  .bannerMarcasList li:last-child img {
-    margin-right: 25px;
+.bannerSobreRow {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 30px;
+  max-width: 1598px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bannerSobreRow {
+    flex-direction: row;
+    margin: 0 16px;
+  }
+}
+
+.bannerSobreText {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .bannerSobreText {
+    margin: 0 64px 0 0;
+  }
+}
+
+.bannerSobreText h2 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 16px;
+}
+
+.bannerSobreText p {
+  color: #000;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bannerSobreText p {
+    max-width: 420px;
+  }
+}
+
+.bannerSobreImagens {
+  width: 100%;
+  max-width: 1114px;
+}
+
+.bannerSobreImagemMobile {
+  display: block;
+  margin: 24px 0 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bannerSobreImagemMobile {
+    display: none;
+  }
+}
+
+.bannerSobreImagemDesktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .bannerSobreImagemDesktop {
+    display: block;
   }
 }
