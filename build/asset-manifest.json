@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/desafio-maeztra/static/css/main.7293af84.css",
+    "main.js": "/desafio-maeztra/static/js/main.1b483ce0.js",
+    "static/media/banner-home.png": "/desafio-maeztra/static/media/banner-home.e0477ac99f12bec07880.png",
+    "static/media/banner-sobre.png": "/desafio-maeztra/static/media/banner-sobre.5d5ee9c11e8493d7ee7e.png",
+    "static/media/banner-news.png": "/desafio-maeztra/static/media/banner-news.30246534de44e1e4128b.png",
+    "static/media/banner-home-mobile.png": "/desafio-maeztra/static/media/banner-home-mobile.6749bef681af0321a702.png",
+    "static/media/banner-sobre-mobile.png": "/desafio-maeztra/static/media/banner-sobre-mobile.040c5bdee1d19c53531f.png",
+    "static/media/ico-mastercard.svg": "/desafio-maeztra/static/media/ico-mastercard.7ef9baa8f3d6ed2d9749f242555a51a9.svg",
+    "static/media/ico-novidades.svg": "/desafio-maeztra/static/media/ico-novidades.c971147b18cf0b13ac331aad316fec54.svg",
+    "static/media/ico-instagram.svg": "/desafio-maeztra/static/media/ico-instagram.400a9a18727a6f04470d3a909bc21b2e.svg",
+    "static/media/ico-visa.svg": "/desafio-maeztra/static/media/ico-visa.74e1c705950b34d0fbdf49a8cc630d86.svg",
+    "static/media/ico-carrinho-mobile.svg": "/desafio-maeztra/static/media/ico-carrinho-mobile.8cd4683462f5674766e925a9efef9161.svg",
+    "static/media/ico-carrinho.svg": "/desafio-maeztra/static/media/ico-carrinho.9ad540188427f7ed6837ac2501acc207.svg",
+    "static/media/ico-menu.svg": "/desafio-maeztra/static/media/ico-menu.780dd0485984d7f1c2479b634cc7195d.svg",
+    "static/media/ico-wishilist.svg": "/desafio-maeztra/static/media/ico-wishilist.d52ecda33e897d3657d6bab298351fff.svg",
+    "static/media/ico-usuario.svg": "/desafio-maeztra/static/media/ico-usuario.f7a3a28f18c1f680b5572e9a78d23717.svg",
+    "index.html": "/desafio-maeztra/index.html",
+    "static/media/ico-youtube.svg": "/desafio-maeztra/static/media/ico-youtube.cd8e35ced2aed85b340af7e3493341d0.svg",
+    "static/media/ico-busca.svg": "/desafio-maeztra/static/media/ico-busca.1bf78542fb96e8dbd0995559b1373a10.svg",
+    "static/media/ico-linkedin.svg": "/desafio-maeztra/static/media/ico-linkedin.d3fee11159c0f19a0a153ce9a82015a9.svg",
+    "static/media/ico-facebook.svg": "/desafio-maeztra/static/media/ico-facebook.ee341d7151706b23e59ba24eebb3a1e1.svg",
+    "static/media/ico-anterior.svg": "/desafio-maeztra/static/media/ico-anterior.299a0300e85d58d8f34ea0d5a5ac0bba.svg",
+    "static/media/ico-proximo.svg": "/desafio-maeztra/static/media/ico-proximo.80eb63d6be356df6409d0b5e25a06312.svg",
+    "main.7293af84.css.map": "/desafio-maeztra/static/css/main.7293af84.css.map",
+    "main.1b483ce0.js.map": "/desafio-maeztra/static/js/main.1b483ce0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7293af84.css",
+    "static/js/main.1b483ce0.js"
+  ]
+}
