@@ -151,19 +151,60 @@
 }
 
 .headerLinksDesktop a {
+  align-items: center;
   color: #353535;
+  display: flex;
+  flex-direction: row;
   font-size: 14px;
   font-weight: 400;
+  gap: 8px;
   line-height: 21px;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  gap: 8px;
 }
 
 .headerLinksDesktop a:last-child {
   border: 1px solid #faa500;
   border-radius: 8px;
   padding: 12px 14px 13px 17px;
+}
+
+/* MENU */
+
+.headerMenuDesktop {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+}
+
+.headerMenuDesktop ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.headerMenuDesktop li {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 146px;
+}
+
+.headerMenuDesktop a {
+  color: #353535;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.headerMenuDesktopNovidades {
+  align-items: center;
+  color: #faa500 !important;
+  display: flex;
+  font-weight: 700 !important;
+  gap: 8px;
 }
