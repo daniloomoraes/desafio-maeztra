@@ -140,6 +140,7 @@
 @media (max-width: 768px) {
   .bannerTipBarList {
     overflow: auto;
+    margin: 0 0 0 15px;
   }
 
   .bannerTipBarList ul {
@@ -200,6 +201,7 @@
 @media (max-width: 768px) {
   .bannerMarcasList {
     overflow: auto;
+    margin: 0 0 0 15px;
   }
 
   .bannerMarcasList ul {
@@ -255,6 +257,7 @@
 @media (max-width: 768px) {
   .homeProdutoList {
     overflow: auto;
+    margin: 0 0 0 15px;
   }
 
   .homeProdutoList ul {
