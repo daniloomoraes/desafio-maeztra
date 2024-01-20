@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/desafio-maeztra/static/css/main.7293af84.css",
-    "main.js": "/desafio-maeztra/static/js/main.1b483ce0.js",
+    "main.css": "/desafio-maeztra/static/css/main.bbbfaa50.css",
+    "main.js": "/desafio-maeztra/static/js/main.4e71ceb7.js",
     "static/media/banner-home.png": "/desafio-maeztra/static/media/banner-home.e0477ac99f12bec07880.png",
     "static/media/banner-sobre.png": "/desafio-maeztra/static/media/banner-sobre.5d5ee9c11e8493d7ee7e.png",
     "static/media/banner-news.png": "/desafio-maeztra/static/media/banner-news.30246534de44e1e4128b.png",
     "static/media/banner-home-mobile.png": "/desafio-maeztra/static/media/banner-home-mobile.6749bef681af0321a702.png",
+    "static/media/produto-1.png": "/desafio-maeztra/static/media/produto-1.fb2761db5c8f4efeeb56.png",
+    "static/media/produto-2.png": "/desafio-maeztra/static/media/produto-2.b806b7794ffa87414719.png",
     "static/media/banner-sobre-mobile.png": "/desafio-maeztra/static/media/banner-sobre-mobile.040c5bdee1d19c53531f.png",
     "static/media/ico-mastercard.svg": "/desafio-maeztra/static/media/ico-mastercard.7ef9baa8f3d6ed2d9749f242555a51a9.svg",
     "static/media/ico-novidades.svg": "/desafio-maeztra/static/media/ico-novidades.c971147b18cf0b13ac331aad316fec54.svg",
@@ -23,11 +25,13 @@
     "static/media/ico-facebook.svg": "/desafio-maeztra/static/media/ico-facebook.ee341d7151706b23e59ba24eebb3a1e1.svg",
     "static/media/ico-anterior.svg": "/desafio-maeztra/static/media/ico-anterior.299a0300e85d58d8f34ea0d5a5ac0bba.svg",
     "static/media/ico-proximo.svg": "/desafio-maeztra/static/media/ico-proximo.80eb63d6be356df6409d0b5e25a06312.svg",
-    "main.7293af84.css.map": "/desafio-maeztra/static/css/main.7293af84.css.map",
-    "main.1b483ce0.js.map": "/desafio-maeztra/static/js/main.1b483ce0.js.map"
+    "static/media/produto-1-color.svg": "/desafio-maeztra/static/media/produto-1-color.4f0743cab1d9160fb67a24ecb535bfe8.svg",
+    "static/media/produto-2-color.svg": "/desafio-maeztra/static/media/produto-2-color.d98535c9c236369ab09ef2d727b829e9.svg",
+    "main.bbbfaa50.css.map": "/desafio-maeztra/static/css/main.bbbfaa50.css.map",
+    "main.4e71ceb7.js.map": "/desafio-maeztra/static/js/main.4e71ceb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7293af84.css",
-    "static/js/main.1b483ce0.js"
+    "static/css/main.bbbfaa50.css",
+    "static/js/main.4e71ceb7.js"
   ]
 }
