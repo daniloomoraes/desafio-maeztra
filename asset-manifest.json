@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/desafio-maeztra/static/css/main.bbbfaa50.css",
+    "main.css": "/desafio-maeztra/static/css/main.58ff4ac6.css",
     "main.js": "/desafio-maeztra/static/js/main.4e71ceb7.js",
     "static/media/banner-home.png": "/desafio-maeztra/static/media/banner-home.e0477ac99f12bec07880.png",
     "static/media/banner-sobre.png": "/desafio-maeztra/static/media/banner-sobre.5d5ee9c11e8493d7ee7e.png",
@@ -27,11 +27,11 @@
     "static/media/ico-proximo.svg": "/desafio-maeztra/static/media/ico-proximo.80eb63d6be356df6409d0b5e25a06312.svg",
     "static/media/produto-1-color.svg": "/desafio-maeztra/static/media/produto-1-color.4f0743cab1d9160fb67a24ecb535bfe8.svg",
     "static/media/produto-2-color.svg": "/desafio-maeztra/static/media/produto-2-color.d98535c9c236369ab09ef2d727b829e9.svg",
-    "main.bbbfaa50.css.map": "/desafio-maeztra/static/css/main.bbbfaa50.css.map",
+    "main.58ff4ac6.css.map": "/desafio-maeztra/static/css/main.58ff4ac6.css.map",
     "main.4e71ceb7.js.map": "/desafio-maeztra/static/js/main.4e71ceb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbbfaa50.css",
+    "static/css/main.58ff4ac6.css",
     "static/js/main.4e71ceb7.js"
   ]
 }
