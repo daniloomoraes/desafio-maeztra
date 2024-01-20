@@ -209,6 +209,120 @@
 
 /* VITRINES */
 
+.homeProduto {
+  margin: 0 auto 40px;
+  max-width: 1598px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .homeProduto {
+    margin: 0 auto 80px;
+  }
+}
+
+.homeProduto h2 {
+  color: #353535;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto 25px;
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .homeProduto h2 {
+    font-size: 32px;
+    margin: 0 auto 17px;
+  }
+}
+
+.homeProdutoList ul {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.homeProdutoList li {
+  width: calc(20% - 16px);
+}
+
+@media (max-width: 768px) {
+  .homeProdutoList {
+    overflow: auto;
+  }
+
+  .homeProdutoList ul {
+    width: 1598px;
+  }
+}
+
+.homeProdutoList a {
+  text-decoration: none;
+}
+
+.homeProdutoVitrine {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeProdutoVitrine img {
+  height: auto;
+  width: -webkit-fill-available;
+}
+
+.homeProdutoVitrine div {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 27px 16px;
+}
+
+.homeProdutoVitrine div img {
+  width: max-content;
+}
+
+.homeProdutoVitrinePreco {
+  color: #353535;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.homeProdutoVitrineNome {
+  color: #353535;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.homeProdutoVitrineDescricao {
+  color: #353535;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 8px 0;
+  max-width: 99%;
+  opacity: 0.5;
+}
+
+.homeProdutoVitrine div button {
+  background: #faa500;
+  border: 1px solid #faa500;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  height: 35px;
+  line-height: normal;
+}
+
 /* SOBRE */
 
 .bannerSobreContainer {
@@ -275,8 +389,13 @@
 }
 
 .bannerSobreImagens {
-  max-width: 1114px;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bannerSobreImagens {
+    width: 69.6%;
+  }
 }
 
 .bannerSobreImagemMobile {
@@ -293,6 +412,7 @@
 
 .bannerSobreImagemDesktop {
   display: none;
+  width: 100%;
 }
 
 @media (min-width: 768px) {

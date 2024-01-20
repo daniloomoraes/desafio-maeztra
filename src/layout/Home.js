@@ -1,6 +1,7 @@
 import Slider from "../components/Home/Slider";
 import TipBar from "../components/Home/TipBar";
 import Marcas from "../components/Home/Marcas";
+import Produtos from "../components/Home/Produtos";
 
 import bannerSobre from "../assets/img/home/banner-sobre.png";
 import bannerSobreMobile from "../assets/img/home/banner-sobre-mobile.png";
@@ -11,6 +12,7 @@ function Home() {
       <Slider />
       <TipBar />
       <Marcas />
+      <Produtos />
       <div className="bannerSobreContainer">
         <div className="bannerSobreRow">
           <div className="bannerSobreText">
